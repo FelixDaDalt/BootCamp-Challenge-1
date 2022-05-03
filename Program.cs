@@ -99,13 +99,13 @@ namespace BootCamp_Challenge_1
             //Random num = new Random();
             //bool salto = true;
             //double bicicleta = 0, moto = 0, auto = 0, camion = 0, error = 0;
-            //int valor=0, total=0;
+            //int valor = 0, total = 0;
             //for (int x = 1; x <= 1000 && salto; x++)
             //{
             //    total = x;
-            //    int vehiculo=num.Next(0,5);
+            //    int vehiculo = num.Next(0, 5);
 
-            //    switch(vehiculo)
+            //    switch (vehiculo)
             //    {
             //        case 0: // bicicleta
             //            bicicleta++;
@@ -135,15 +135,15 @@ namespace BootCamp_Challenge_1
             //                error++;
             //                salto = false;
             //                break;
-            //            } 
+            //            }
 
             //    }
             //}
             //Console.WriteLine($"Total Vehiculos: {total}");
-            //Console.WriteLine($"Bicicleta: {bicicleta*total/100}%");
-            //Console.WriteLine($"Moto: {moto * total / 100}%");
-            //Console.WriteLine($"Auto: {auto * total / 100}%");
-            //Console.WriteLine($"Camion: {camion * total / 100}%");
+            //Console.WriteLine($"Bicicleta: {(bicicleta * total) / 100}%");
+            //Console.WriteLine($"Moto: {(moto * total) / 100}%");
+            //Console.WriteLine($"Auto: {(auto * total) / 100}%");
+            //Console.WriteLine($"Camion: {(camion * total) / 100}%");
 
             //Console.WriteLine($"Errores: {error}");
             ///Me falto intervalo, no queria demorarme en este solo ejercicio mucho mas
@@ -225,6 +225,43 @@ namespace BootCamp_Challenge_1
             //Console.WriteLine($"Area: {area} mt2");
             #endregion
 
+            #region Ejercicio11
+            //const double beneficio = 3.5;
+            //double valorFinal = 0, dep = 0, tipo = 0, valor = 0;
+            //string cod;
+            //bool buscar = true;
+
+            //while(buscar) {
+            //    Console.WriteLine("Buscar un producto: S)i, otra tecla No");
+            //    if(Console.ReadKey().Key == ConsoleKey.S)
+            //    {
+            //        Console.Clear();
+            //        do
+            //        {
+            //            Console.WriteLine("Codigo de articulo: ");
+            //            cod = Console.ReadLine();
+            //                if(cod.Length == 7)
+            //                { 
+            //                dep = Convert.ToDouble(Convert.ToString(cod[0]));
+            //                tipo = Convert.ToDouble(cod.ToString().Substring(1, 2));
+            //                valor = Convert.ToDouble(cod.ToString().Substring(3, 2) + "," + cod.ToString().Substring(5, 2));
+                  
+            //            }
+            //            else { Console.WriteLine("Ingrese codigo de 7 numeros"); }
+            //        } while (cod.Length < 7 && dep < 1 || dep > 9 && tipo < 1 || tipo > 20);
+
+            //        Console.WriteLine($"Deptaramento: {dep}");
+            //        Console.WriteLine($"Tipo producto: {tipo}");
+            //        valorFinal = (valor * Convert.ToDouble(dep) / 100) * beneficio;
+            //        Console.WriteLine($"Valor:{valorFinal} ");
+            //    }
+            //    else
+            //    {
+            //        buscar = false;
+            //        Console.WriteLine("Gracias por utilizarlo");
+            //    }
+            //}
+            #endregion
             Console.ReadKey();
         }
     }
