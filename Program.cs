@@ -156,18 +156,43 @@ namespace BootCamp_Challenge_1
 
             //Console.WriteLine("Cantidad de horas: ");
             //horas = Convert.ToInt32(Console.ReadLine());
-            
+
             //for(int x=horas; x>=6; x-=6)
             //{
             //    horas -= 6;
             //    total += 5 * valorHora;
-                
+
             //}
             //total += horas*valorHora;
 
             //Console.WriteLine($"ABonar: ${total}");
 
 
+            #endregion
+
+            #region Ejercicio7
+            //int seg = 0;
+            //int min = 0;
+            //int horas = 0;
+            //Console.Write("Ingrese segundos: ");
+            //seg = Convert.ToInt32(Console.ReadLine());
+
+            //while(seg >59)
+            //{
+            //    min++;
+            //    seg -= 60;
+            
+            //}
+
+            //while(min>59)
+            //{
+            //    horas++;
+            //    min -= 60;
+            //}
+
+            //Console.WriteLine($"Segundos: {seg}");
+            //Console.WriteLine($"Minutos: {min}");
+            //Console.WriteLine($"Horas: {horas}");
             #endregion
             Console.ReadKey();
         }
