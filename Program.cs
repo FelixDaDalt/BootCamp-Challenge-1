@@ -136,7 +136,7 @@ namespace BootCamp_Challenge_1
             //                salto = false;
             //                break;
             //            } 
-                        
+
             //    }
             //}
             //Console.WriteLine($"Total Vehiculos: {total}");
@@ -149,7 +149,26 @@ namespace BootCamp_Challenge_1
             ///Me falto intervalo, no queria demorarme en este solo ejercicio mucho mas
             #endregion
 
+            #region Ejercicio6
+            //const double valorHora = 1.5;
+            //int horas = 0;
+            //double total=0;
 
+            //Console.WriteLine("Cantidad de horas: ");
+            //horas = Convert.ToInt32(Console.ReadLine());
+            
+            //for(int x=horas; x>=6; x-=6)
+            //{
+            //    horas -= 6;
+            //    total += 5 * valorHora;
+                
+            //}
+            //total += horas*valorHora;
+
+            //Console.WriteLine($"ABonar: ${total}");
+
+
+            #endregion
             Console.ReadKey();
         }
     }
