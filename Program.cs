@@ -181,7 +181,7 @@ namespace BootCamp_Challenge_1
             //{
             //    min++;
             //    seg -= 60;
-            
+
             //}
 
             //while(min>59)
@@ -193,6 +193,24 @@ namespace BootCamp_Challenge_1
             //Console.WriteLine($"Segundos: {seg}");
             //Console.WriteLine($"Minutos: {min}");
             //Console.WriteLine($"Horas: {horas}");
+            #endregion
+
+            #region Ejercicio8
+            //double salario;
+            //Console.Write("Ingrese el salario: ");
+            //salario = Convert.ToDouble(Console.ReadLine());
+
+            //double aumento, servicios, nuevoSalario;
+            //aumento = salario * 8 / 100;
+            //servicios = ((salario + aumento) * 2.5 / 100);
+            //nuevoSalario = salario+aumento-servicios;
+
+            //Console.WriteLine($"Salario: ${salario}");
+            //Console.WriteLine($"Aumento: +${aumento}");
+            //Console.WriteLine($"subtotal: ${aumento+salario}");
+            //Console.WriteLine($"Servicios: -${servicios}");
+            //Console.WriteLine($"Nuevo Salario: ${nuevoSalario}");
+
             #endregion
             Console.ReadKey();
         }
