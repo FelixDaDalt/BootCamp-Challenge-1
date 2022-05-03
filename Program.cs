@@ -95,6 +95,60 @@ namespace BootCamp_Challenge_1
             //Console.WriteLine($"Trabajador: {nombre}, salario: ${salario * horas}");
             #endregion
 
+            #region Ejercicio5
+            //Random num = new Random();
+            //bool salto = true;
+            //double bicicleta = 0, moto = 0, auto = 0, camion = 0, error = 0;
+            //int valor=0, total=0;
+            //for (int x = 1; x <= 1000 && salto; x++)
+            //{
+            //    total = x;
+            //    int vehiculo=num.Next(0,5);
+
+            //    switch(vehiculo)
+            //    {
+            //        case 0: // bicicleta
+            //            bicicleta++;
+            //            valor = vehiculo;
+            //            break;
+            //        case 1: // Moto
+            //            moto++;
+            //            valor = vehiculo;
+            //            break;
+            //        case 2: // AUto
+            //            auto++;
+            //            valor = vehiculo;
+            //            break;
+            //        case 3: // Camion
+            //            camion++;
+            //            valor = vehiculo;
+            //            break;
+            //        case 4: // error
+            //            if (valor != 4)
+            //            {
+            //                error++;
+            //                valor = vehiculo;
+            //                break;
+            //            }
+            //            else
+            //            {
+            //                error++;
+            //                salto = false;
+            //                break;
+            //            } 
+                        
+            //    }
+            //}
+            //Console.WriteLine($"Total Vehiculos: {total}");
+            //Console.WriteLine($"Bicicleta: {bicicleta*total/100}%");
+            //Console.WriteLine($"Moto: {moto * total / 100}%");
+            //Console.WriteLine($"Auto: {auto * total / 100}%");
+            //Console.WriteLine($"Camion: {camion * total / 100}%");
+
+            //Console.WriteLine($"Errores: {error}");
+            ///Me falto intervalo, no queria demorarme en este solo ejercicio mucho mas
+            #endregion
+
 
             Console.ReadKey();
         }
