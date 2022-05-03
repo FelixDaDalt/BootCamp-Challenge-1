@@ -245,9 +245,11 @@ namespace BootCamp_Challenge_1
             //                dep = Convert.ToDouble(Convert.ToString(cod[0]));
             //                tipo = Convert.ToDouble(cod.ToString().Substring(1, 2));
             //                valor = Convert.ToDouble(cod.ToString().Substring(3, 2) + "," + cod.ToString().Substring(5, 2));
-                  
-            //            }
-            //            else { Console.WriteLine("Ingrese codigo de 7 numeros"); }
+            //                }
+            //                else
+            //                {
+            //                Console.WriteLine("Ingrese codigo de 7 numeros");
+            //                }
             //        } while (cod.Length < 7 && dep < 1 || dep > 9 && tipo < 1 || tipo > 20);
 
             //        Console.WriteLine($"Deptaramento: {dep}");
