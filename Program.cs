@@ -225,7 +225,7 @@ namespace BootCamp_Challenge_1
             //Console.WriteLine($"Area: {area} mt2");
             #endregion
 
-            #region Ejercicio11
+            #region Ejercicio12
             //const double beneficio = 3.5;
             //double valorFinal = 0, dep = 0, tipo = 0, valor = 0;
             //string cod;
@@ -264,6 +264,39 @@ namespace BootCamp_Challenge_1
             //    }
             //}
             #endregion
+
+            #region Ejercicio13
+            //double salarioAnt = 0;
+            //double salarioNuevo = 0;
+            //double total = 0;
+            //const double incremento = 0.25;
+            //int meses = 0;
+
+            //Console.Write("Salario: ");
+            //salarioAnt = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("Meses trabajados: ");
+            //meses = Convert.ToInt32(Console.ReadLine());
+
+            //for(int x=1;x<=meses;x++)
+            //{
+
+            //    Console.WriteLine($"Salario{x}: {salarioAnt}");
+            //    total += salarioAnt;
+
+            //    if (x%6==0)
+            //    {
+            //        Console.WriteLine($"Total: {total}");
+            //        salarioNuevo += (salarioAnt*6) * incremento;
+            //        salarioAnt += salarioAnt * incremento;
+            //        total = 0;
+            //    }else if (x == meses) 
+            //          { 
+            //            Console.WriteLine($"Total: {total}"); 
+            //          }
+            //}
+
+            #endregion
+
             Console.ReadKey();
         }
     }
