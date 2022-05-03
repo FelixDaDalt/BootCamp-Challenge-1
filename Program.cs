@@ -212,6 +212,19 @@ namespace BootCamp_Challenge_1
             //Console.WriteLine($"Nuevo Salario: ${nuevoSalario}");
 
             #endregion
+
+            #region Ejercicio9
+            //double b1, b2, a, area;
+            //Console.Write("Ingrese la base 1: ");
+            //b1=Convert.ToDouble(Console.ReadLine());
+            //Console.Write("Ingrese la base 2: ");
+            //b2 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("Ingrese la altura: ");
+            //a = Convert.ToDouble(Console.ReadLine());
+            //area = ((b1 + b2) / 2) * a;
+            //Console.WriteLine($"Area: {area} mt2");
+            #endregion
+
             Console.ReadKey();
         }
     }
